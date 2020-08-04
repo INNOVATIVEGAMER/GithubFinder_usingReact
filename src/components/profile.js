@@ -17,12 +17,13 @@ const Profile = ({ user, isLoaded }) => {
               <div className="col-md-3">
                 <img
                   src={user.avatar_url}
-                  alt="profile image"
+                  alt="profile"
                   className="img-fluid w-100 mb-3 border border-white rounded"
                 />
                 <a
                   href={user.html_url}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-block btn-outline-success mb-3"
                 >
                   View Profile

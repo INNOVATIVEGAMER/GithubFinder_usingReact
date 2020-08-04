@@ -8,6 +8,7 @@ const RepoElement = ({ repo }) => {
           <a
             href={repo.html_url}
             target="_blank"
+            rel="noopener noreferrer"
             className="text-decoration-none"
           >
             {repo.name}

@@ -4,7 +4,7 @@ const AxiosBase = Axios.create({
   baseURL: "https://api.github.com/users",
   headers: {
     Authorization:
-      "Client-ID 9df188b7d59bbb573db3 Client-Secret dc2bc7e6f8b42bbc6a3b99f356c75661366ab6e0",
+      "Client-ID e674dee7c0a1533a1531 Client-Secret e12f110a36c4cde46a2e05c2fae4387b39495173",
   },
 });
 
